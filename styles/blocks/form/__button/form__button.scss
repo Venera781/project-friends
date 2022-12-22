@@ -1,0 +1,11 @@
+.form__button {
+  grid-row: 7/8;
+  grid-column: 1/2;
+}
+
+@media (max-width: 1200px) {
+  .form__button {
+    grid-row: 9/10;
+    grid-column: 1;
+  }
+}

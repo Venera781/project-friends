@@ -1,0 +1,21 @@
+.soda-composition__elements {
+  max-width: 255px;
+  padding: 0;
+  outline: 2px solid red;
+  grid-row: 1/6;
+  grid-column: 3/4;
+  margin: 0;
+}
+
+@media (max-width: 925px) {
+  .soda-composition__elements {
+    grid-row: 5/6;
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .soda-composition__elements {
+    width: 100%;
+  }
+}

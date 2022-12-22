@@ -1,0 +1,31 @@
+.soda-pineapple__button {
+  grid-row: 3/4;
+  grid-column: 1;
+  align-self: flex-end;
+}
+@media (max-width: 1200px) {
+  .soda-pineapple__button {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .soda-pineapple__button {
+    grid-row: 1;
+    grid-column: 3/4;
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 630px) {
+  .soda-pineapple__button {
+    grid-row: 3/4;
+    grid-column: 1;
+    align-self: left;
+    height: 51px;
+    width: 152px;
+    align-self: start;
+    font-size: 16px;
+    line-height: 31px;
+  }
+}

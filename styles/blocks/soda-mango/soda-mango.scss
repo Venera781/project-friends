@@ -1,0 +1,50 @@
+.soda-mango {
+  padding: 20px 180px 0px 154px;
+  outline: 2px solid red;
+  display: grid;
+  grid-template-columns: 460fr 216fr 430fr;
+  grid-template-rows: 120fr 200fr 280fr;
+  background-image: url("../../../images/mango-green.svg");
+  background-size: 219px;
+  background-position: top 42px left 701px;
+  background-repeat: no-repeat;
+  z-index: 2;
+  text-align: end;
+}
+
+@media (max-width: 1319px) {
+  .soda-mango {
+    padding: 20px 50px 0px 110px;
+    background-position: top 42px left 63%;
+  }
+}
+
+@media (max-width: 1279px) {
+  .soda-mango {
+    padding: 20px 50px 0px;
+  }
+}
+
+@media (max-width: 925px) {
+  .soda-mango {
+    grid-template-columns: auto;
+    grid-template-rows: auto 120fr 610fr;
+    padding: 70px 54px 0;
+    background-position: top 400px left 54px;
+  }
+}
+
+@media (max-width: 767px) {
+  .soda-mango {
+    padding: 30px 20px;
+    grid-template-rows: auto 50fr 397fr;
+  }
+}
+
+@media (max-width: 425px) {
+  .soda-mango {
+    background-position: bottom 125px left 14px;
+    background-image: url("../../../images/mobile_mango-green.svg");
+    background-size: 126px;
+  }
+}

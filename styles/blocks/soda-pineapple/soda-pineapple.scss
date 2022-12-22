@@ -1,0 +1,76 @@
+.soda-pineapple {
+  display: grid;
+  position: relative;
+  background-color: $purple-primary-color;
+  outline: 2px solid blue;
+  background-image: url("../../../images/bg-c.svg");
+  background-size: 405px;
+  background-repeat: no-repeat;
+  background-position: top 0 right 0;
+  padding: 40px 50px 50px;
+  grid-template-columns: 783fr 100fr 457fr;
+  grid-template-rows: 30fr 40fr auto;
+}
+
+.soda-pineapple::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-image: url("../../../images/made-on-earth.svg");
+  width: 169px;
+  height: 169px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 50px;
+  right: 50px;
+}
+
+@media (max-width: 1370px) {
+  .soda-pineapple::after {
+    width: 128px;
+    height: 128px;
+    top: 40px;
+  }
+}
+
+@media (max-width: 1370px) {
+  .soda-pineapple {
+    background-size: 320px;
+    grid-template-columns: 400fr 80fr 457fr;
+  }
+}
+
+@media (max-width: 1200px) {
+  .soda-pineapple {
+    background-image: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .soda-pineapple {
+    grid-template-columns: 668fr;
+    grid-template-rows: 30fr 126fr auto 50fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .soda-pineapple::after {
+    top: 20px;
+    right: 20px;
+    width: 94px;
+    height: 94px;
+  }
+}
+
+@media (max-width: 767px) {
+  .soda-pineapple {
+    grid-template-rows: 30fr 50fr auto 50fr;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .soda-pineapple {
+    grid-template-columns: 280fr;
+  }
+}

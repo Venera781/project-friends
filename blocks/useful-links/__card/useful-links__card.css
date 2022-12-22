@@ -1,6 +1,0 @@
-.useful-links__card {
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template: "." 1fr / 1fr;
-}

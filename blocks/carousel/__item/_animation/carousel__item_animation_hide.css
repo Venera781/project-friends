@@ -1,5 +1,0 @@
-.carousel__item_animation_hide {
-  visibility: visible;
-  z-index: 1;
-  animation-name: hide-slide;
-}

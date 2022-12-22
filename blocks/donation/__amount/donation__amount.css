@@ -1,4 +1,0 @@
-.donation__amount-input:checked + .donation__amount {
-  color: var(--black-100);
-  background-color: var(--purple-70);
-}

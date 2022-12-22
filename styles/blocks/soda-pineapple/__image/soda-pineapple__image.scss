@@ -1,0 +1,29 @@
+.soda-pineapple__image {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  max-width: 783px;
+}
+
+@media (max-width: 1280px) {
+  .soda-pineapple__image {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .soda-pineapple__image {
+    width: 100%;
+    max-width: 668px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .soda-pineapple__image {
+    min-width: 280px;
+    min-height: 216px;
+    z-index: 0;
+    margin: 0;
+  }
+}

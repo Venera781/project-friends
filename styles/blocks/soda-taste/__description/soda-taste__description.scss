@@ -1,0 +1,18 @@
+.soda-taste__description {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  margin: 0;
+}
+
+@media (max-width: 925px) {
+  .soda-taste__description {
+    grid-column: 1;
+    width: 70%;
+  }
+}
+
+@media (max-width: 765px) {
+  .soda-taste__description {
+    width: 100%;
+  }
+}

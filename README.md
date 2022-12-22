@@ -6,4 +6,3 @@ Cайт «Сода» — это ресурс про натуральные ли�
 
 Ссылка на макет:
 https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=6%3A1336&t=lOrJ5eq33K03G75t-4
-

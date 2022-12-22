@@ -1,0 +1,45 @@
+.soda-composition {
+    display: grid;
+    grid-template-columns: 386fr 499fr 255fr;
+    grid-template-rows: 48px 30px 62px 205px 55px;
+    padding: 90px 100px;
+    outline: 2px solid blue;
+    background-color: $purple-secondary-color;
+    background-image: url("../../../images/lime-circle.png"), url("../../../images/yellow-circle.png");
+    background-size: 185px, 138px;
+    background-repeat: no-repeat;
+    background-position: top 123px left 622px, bottom 121px right 481px;
+};
+
+@media (max-width: 1279px) {
+    .soda-composition {
+      padding: 40px;
+      grid-template-columns: 386fr 350fr 255fr;
+      background-position: top 20% left 50%, bottom 20% right 43%;
+    }
+}
+
+   @media (max-width: 925px) {
+    .soda-composition  {
+      grid-template-columns: auto;
+      padding: 60px;
+      grid-template-rows: 48px 30px auto 100px auto 100px 55px;
+      background-position: top 300px right 60px, bottom 268px right 60px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .soda-composition  {
+        background-image: none;
+        padding: 40px;
+        grid-template-rows: auto 14px auto 60px auto 60px 55px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .soda-composition  {
+        padding: 20px;
+    }
+  }
+  
+  

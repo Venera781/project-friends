@@ -1,0 +1,17 @@
+.soda-pineapple__title {
+  top: 40px;
+  left: 50px;
+  color: $yel-btn-color;
+  margin-top: 0;
+  margin-bottom: 0;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+@media (max-width: 767px) {
+  .soda-pineapple__title {
+    font-size: 20px;
+  }
+}

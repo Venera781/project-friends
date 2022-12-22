@@ -1,0 +1,11 @@
+.form__label_name {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+@media (max-width: 1200px) {
+  .form__label_name {
+    grid-row: 3/4;
+    grid-column: 1;
+  }
+}

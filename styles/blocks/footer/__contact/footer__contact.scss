@@ -1,0 +1,12 @@
+.footer__contact {
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
+
+@media (max-width: 690px) {
+    .footer__contact  {
+        grid-row: 6/7;
+        grid-column: 1;
+        text-align: center;
+    }
+}

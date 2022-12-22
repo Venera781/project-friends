@@ -1,0 +1,13 @@
+.soda-fresh {
+  max-height: 76px;
+  background-color: $lite-green-color;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 765px) {
+  .soda-fresh {
+    max-height: 64px;
+  }
+}

@@ -1,0 +1,11 @@
+.form__label_email {
+  grid-row: 5/6;
+  grid-column: 1/4;
+}
+
+@media (max-width: 1200px) {
+  .form__label_email {
+    grid-row: 7/8;
+    grid-column: 1;
+  }
+}

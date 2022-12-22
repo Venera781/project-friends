@@ -1,0 +1,44 @@
+.soda-taste {
+  display: grid;
+  grid-template-columns: 386fr 236fr 518fr;
+  grid-template-rows: 48px 30px 93px auto;
+  padding: 90px 100px;
+  outline: 2px solid blue;
+  background-color: $purple-primary-color;
+}
+
+@media (max-width: 1279px) {
+  .soda-taste {
+    padding: 40px;
+    grid-template-columns: 386fr 180fr 518fr;
+    grid-template-rows: 48px 30px 180px auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .soda-taste {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 925px) {
+  .soda-taste {
+    grid-template-columns: auto;
+    grid-template-rows: 48px 30px auto 60px auto;
+    padding: 60px;
+  }
+}
+
+@media (max-width: 765px) {
+  .soda-taste {
+    padding: 40px;
+    grid-template-rows: auto 20px auto 50px auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .soda-taste {
+    padding: 20px;
+    grid-template-rows: auto 14px auto 50px auto;
+  }
+}

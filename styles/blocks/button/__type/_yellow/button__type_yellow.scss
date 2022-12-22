@@ -1,0 +1,11 @@
+.button__type_yellow {
+  background-color: $yel-btn-color;
+  color: $blue-color;
+  width: 163px;
+  cursor: pointer;
+}
+
+.button__type_yellow:hover {
+  border: 2px solid #1e3264;
+  border-radius: 10px;
+}

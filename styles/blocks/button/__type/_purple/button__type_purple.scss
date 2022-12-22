@@ -1,0 +1,18 @@
+.button__type_purple {
+  background-color: $purple-btn-color;
+  color: $white-color;
+  width: 158px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .button__type_purple {
+    width: 220px;
+    height: 51px;
+  }
+}
+
+.button__type_purple:hover {
+  border: 2px solid #e1fd2c;
+  border-radius: 10px;
+}

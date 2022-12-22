@@ -1,5 +1,0 @@
-@media (max-width: 768px) {
-  .donation__amount_whole-width {
-    grid-column: span 2;
-  }
-}

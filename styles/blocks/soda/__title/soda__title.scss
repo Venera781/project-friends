@@ -1,0 +1,33 @@
+.soda__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  color: $blue-color;
+  margin: 0 auto 120px;
+  outline: 1px solid red;
+  font-family: $fontfamily;
+  font-style: normal;
+}
+
+@media (max-width: 767px) {
+  .soda__title {
+    font-size: 45px;
+    line-height: 50px;
+    margin: 0 auto 50px;
+  }
+}
+
+@media (max-width: 525px) {
+  .soda__title {
+    font-size: 34px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 425px) {
+  .soda__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

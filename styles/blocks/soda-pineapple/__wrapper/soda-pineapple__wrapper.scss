@@ -1,0 +1,42 @@
+.soda-pineapple__wrapper {
+  outline: 2px solid greenyellow;
+  display: grid;
+  grid-row: 3/4;
+  grid-column: 3/4;
+  grid-template-columns: 457fr;
+  grid-template-rows: 96fr 171fr 55fr;
+  align-self: flex-end;
+}
+
+@media (max-width: 1400px) {
+  .soda-pineapple__wrapper {
+    grid-template-rows: 96fr 150fr 55fr;
+  }
+}
+
+@media (max-width: 1024px) {
+  .soda-pineapple__wrapper {
+    max-width: 783px;
+    grid-template-columns: 407fr 98fr 163fr;
+    grid-template-rows: auto;
+    grid-row: 5/6;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 630px) {
+  .soda-pineapple__wrapper {
+    grid-template-columns: auto;
+    grid-template-rows: 48fr 30fr auto;
+    width: 100%;
+    align-self: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  .soda-pineapple__wrapper {
+    min-width: 280px;
+  }
+}

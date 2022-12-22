@@ -1,0 +1,38 @@
+.soda-pineapple__subtitle {
+  color: $white-color;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+  margin: 0;
+  grid-row: 1/2;
+  grid-column: 1;
+}
+
+@media (max-width: 1400px) {
+  .soda-pineapple__subtitle {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .soda-pineapple__subtitle {
+    max-width: 407px;
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 786px) {
+  .soda-pineapple__subtitle {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 630px) {
+  .soda-pineapple__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

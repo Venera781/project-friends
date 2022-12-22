@@ -1,0 +1,21 @@
+.form__label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  color: $white-color;
+}
+
+.form__label:hover,
+.form__label:focus-within {
+  color: $white-f-color;
+}
+
+@media (max-width: 425px) {
+  .form__label {
+    font-size: 14px;
+    line-height: 31px;
+  }
+}

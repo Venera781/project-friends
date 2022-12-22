@@ -1,0 +1,42 @@
+.soda-composition__element {
+  width: 100%;
+  list-style: none;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50px;
+  color: $white-color;
+  border-bottom: 1px solid $white-color;
+  padding-bottom: 4px;
+  text-align: left;
+}
+
+.soda-composition__element:not(:first-child) {
+  margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+  .soda-composition__element {
+    font-size: 28px;
+    line-height: 28px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .soda-composition__element:not(:first-child) {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .soda-composition__element:not(:first-child) {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .soda-composition__element {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}

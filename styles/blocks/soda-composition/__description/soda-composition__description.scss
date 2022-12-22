@@ -1,0 +1,17 @@
+.soda-composition__description {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+@media (max-width: 925px) {
+  .soda-composition__description {
+    grid-column: 1;
+    width: 70%;
+  }
+}
+
+@media (max-width: 765px) {
+  .soda-composition__description {
+    width: 100%;
+  }
+}

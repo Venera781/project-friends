@@ -1,0 +1,39 @@
+.soda-pineapple__image-union {
+  position: absolute;
+  bottom: 14px;
+  right: 555px;
+  width: 149px;
+  height: 146px;
+}
+
+@media (max-width: 1280px) {
+  .soda-pineapple__image-union {
+    right: 45%;
+    bottom: 10%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .soda-pineapple__image-union {
+    right: 20%;
+    bottom: 20%;
+  }
+}
+
+@media (max-width: 800px) {
+  .soda-pineapple__image-union {
+    bottom: 197px;
+    right: 70px;
+    width: 149px;
+    height: 146px;
+  }
+}
+
+@media (max-width: 630px) {
+  .soda-pineapple__image-union {
+    bottom: 158px;
+    right: 26px;
+    width: 94px;
+    height: 96px;
+  }
+}

@@ -1,0 +1,16 @@
+.soda-mango__image {
+    width: 100%;
+    grid-row: 1/6;
+    grid-column: 3/4;
+    z-index: -2;   
+}
+
+@media (max-width: 925px) {
+    .soda-mango__image {
+        max-width: 430px;
+        grid-row: 3/4;
+        grid-column: 1;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }

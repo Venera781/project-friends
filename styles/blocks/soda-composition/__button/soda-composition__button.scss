@@ -1,0 +1,11 @@
+.soda-composition__button {
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+@media (max-width: 925px) {
+    .soda-composition__button {
+      grid-column: 1;
+      grid-row: 7/8;
+    }
+  }

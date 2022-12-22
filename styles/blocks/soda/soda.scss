@@ -1,0 +1,13 @@
+.soda  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  outline: 2px solid red;
+  padding: 120px 50px 50px;
+}
+
+@media (max-width: 767px) {
+  .soda  {
+    padding: 50px 20px 20px;
+  }
+}

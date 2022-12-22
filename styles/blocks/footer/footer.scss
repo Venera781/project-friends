@@ -1,0 +1,35 @@
+.footer {
+  background-color: $purple-third-color;
+  background-image: url("../../../images/footer_purple-circle.png");
+  background-position: top 100px left 150px;
+  background-repeat: no-repeat;
+  padding: 100px 395px 100px 150px;
+  display: grid;
+  grid-template-columns: 300px 247px 67px 145px 136px;
+  grid-template-rows: 136px 30px 119px 15px;
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    padding: 120px 50px 50px;
+    background-position: top 120px left 50px;
+    grid-template-columns: 200px 100px 67px 100px 136px;
+    grid-template-rows: 93px 30px 162px auto;
+    background-size: 200px;
+  }
+}
+
+@media (max-width: 690px) {
+  .footer {
+    padding: 60px 60px 20px;
+    background-position: top 60px left 50%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 93px 15px 142px auto 50px auto 50px auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer {
+    padding: 60px 20px 20px;
+  }
+}

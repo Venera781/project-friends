@@ -1,5 +1,0 @@
-.card__expiration {
-  grid-area: expiration;
-  z-index: 2;
-  font: 400 14px/23px var(--font-normal);
-}

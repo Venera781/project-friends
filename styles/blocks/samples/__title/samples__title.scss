@@ -1,0 +1,44 @@
+.samples__title {
+    color: $blue-color;
+    font-family: $fontfamily;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    outline: 2px solid red;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin: 0;
+    text-align: left;
+}
+
+@media (max-width: 1200px) {
+    .samples__title {
+        grid-column: 1;
+        grid-row: 1/2;
+        margin-left: 9%;
+    }
+}
+
+@media (max-width: 925px) {
+    .samples__title {
+        grid-column: 1;
+        grid-row: 1/2;
+    }
+}
+@media (max-width: 767px) {
+    .samples__title {
+        font-size: 46px;
+        line-height: 50px;
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 425px) {
+    .samples__title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-left: 10px;
+    }
+}
+

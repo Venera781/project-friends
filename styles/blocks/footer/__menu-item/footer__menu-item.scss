@@ -1,0 +1,14 @@
+.footer__menu-item {
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  margin-top: 3px;
+}
+
+.footer__menu-item:first-child {
+  margin-top: 20px;
+}
+
+.footer__menu-item:hover {
+  opacity: 0.7;
+}
